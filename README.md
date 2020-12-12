@@ -1,5 +1,5 @@
 # ascii_chars
-A project that helps to understand how control flow works within Java.
+A project that helps to show how control flow works within Java.
 The program first takes a string input from the user and sorts each character to see if
 it is uppercase,lowercase,or number characters are located in the string.
 Then the project asks for the user to enter their name and asks if they want
