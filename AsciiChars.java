@@ -7,7 +7,7 @@ public class AsciiChars {
 	for (int i = 0; i < userInput.length(); i++) 
 	    { 
 	    if (userInput.charAt(i) >= '0' && userInput.charAt(i)<= '9') {
-	            System.out.println("• " + userInput.charAt(i));
+	            System.out.println("â€¢ " + userInput.charAt(i));
 	          } 
 	    }	
 	}
@@ -17,7 +17,7 @@ public class AsciiChars {
 	for (int i = 0; i < userInput.length(); i++) 
 	    { 
 	    if (userInput.charAt(i) >= 'a' && userInput.charAt(i) <= 'z') {
-	        System.out.println("• " + userInput.charAt(i));
+	        System.out.println("â€¢ " + userInput.charAt(i));
 	        }
 	    } 
 	}
@@ -28,7 +28,7 @@ public class AsciiChars {
 	for (int i = 0; i < userInput.length(); i++) 
 	    { 
 	        if (userInput.charAt(i) >= 'A' && userInput.charAt(i) <= 'Z') {
-	            System.out.println("• " + userInput.charAt(i));
+	            System.out.println("â€¢ " + userInput.charAt(i));
 	        }
 	    } 
 	}
@@ -46,7 +46,7 @@ public class AsciiChars {
 		String nameInput = scanner.next();
 		System.out.println("Hello "+nameInput+"!");
 		System.out.println("If you wish to continue to the interactive \n"
-				+ "portion of the program, Enter ‘yes’ or ‘y’"
+				+ "portion of the program, Enter â€˜yesâ€™ or â€˜yâ€™"
 				+ ", enter any other phrase to exit the program");
 		String programInput = scanner.next();
 		boolean check = !programInput.equals("yes");
@@ -136,10 +136,7 @@ public class AsciiChars {
 				}
 				System.out.println("Your random number between 1 and 50 is "+randomNumInput);
 			
-			//Lottery Ticket Generator
-			
-			//Finish by looking at instructions:
-			//file:///C:/Users/dreaf/Downloads/Control%20Flow%20-%20PROJECT%20(4).pdf
+			//Lottery Ticket Generator Starts Here
 				ArrayList<Integer> magicNumberList = new ArrayList<Integer>();
 				for(int i = 0; i < 3; i++) {
 					int x = 1 + (int)(Math.random() * ((75 - 1) + 1));
@@ -147,7 +144,7 @@ public class AsciiChars {
 					//System.out.println(magicNumberList.get(i));
 				}
 				int randomMagicNumber = magicNumberList.get((int)Math.random() * 3);
-				//magic ball number created here
+				//Magic Ball Number Created Here
 				int magicBall;
 				if(quarterbackInput == "yes") {
 					int q = Integer.parseInt(quarterbackInput);
@@ -214,7 +211,7 @@ public class AsciiChars {
 	if(fifthLotteryNumber == 0) {
 		fifthLotteryNumber = 1 + (int)(Math.random() * ((65 - 1) + 1));
 	}
-//Reorder numbers in ascending order and gets rid of duplicates
+//Reorder Numbers in Ascending Order and Gets Rid of Duplicates
 	int numbersArray[] = {firstLotteryNumber,secondLotteryNumber,thirdLotteryNumber,
 			fourthLotteryNumber,fifthLotteryNumber};
 	int temp;
@@ -234,7 +231,7 @@ public class AsciiChars {
             }
         }
     }
-	//Lottery Numbers print out here
+//Lottery Numbers Print out Here
     System.out.println("Lottery numbers: ");
     for (int i = 0; i < 5 - 1; i++) 
     {
