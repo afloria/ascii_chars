@@ -7,4 +7,4 @@ to continue to another part of the program that generates lottery ticket numbers
 The user can opt out of generating the lottery tickets. If the user does
 generate lottery ticket numbers they are asked if they want to create another
 set of lottery ticket numbers. If the user says yes, the lottery ticket generator runs again.
-If the user says no, the program swifty ends and thanks the user for utilizing the program.
+If the user says no, the program swiftly ends and thanks the user for utilizing the program.
